@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "cli": "./cli.js files/**/*.css",
+    "cli-double-quote": "./cli.js \"./files/**/*.css\""
+  }
+}
