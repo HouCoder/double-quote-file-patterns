@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "cli": "./cli.js files/**/*.css",
-    "cli-double-quote": "./cli.js \"./files/**/*.css\""
+    "cli-in-root": "./cli.js files/**/*.css",
+    "cli-in-root-double-quote": "./cli.js \"./files/**/*.css\"",
+    "cli-in-npm": "cli ./files/**/*.css",
+    "cli-in-npm-double-quote": "cli \"./files/**/*.css\""
   }
 }
